@@ -1,5 +1,5 @@
 Spamikaze - an automatic spam blacklist system
-Version 0.1
+Version 0.21
 
 Content
 
@@ -19,7 +19,7 @@ automated and could be done by running their own DNSBL or mailserver.
 
 You can find more information on the Spamikaze web site:
 
-http://spamikaze.nl.linux.org/
+http://spamikaze.org/
 
 
 Software Requirements
@@ -27,11 +27,10 @@ Software Requirements
 Any *nix based box with the following software should be able to
 run:
 
-1. A database server (currently only MySQL is supported, future
-   versions 
+1. A database server running MySQL
 2. A webserver able to handle cgi scripts (perl) or php scripts.
 3. Perl with the following module(s):
-    DBI, CGI
+    DBI, CGI, DBD::mysql, Config::IniFiles, and Net::DNS
 
 And optional:
 1. A nameserver
