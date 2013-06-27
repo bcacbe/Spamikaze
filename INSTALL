@@ -12,7 +12,7 @@ Important. If you are updating from the previous version of Spamikaze
 the please read the following. If not then move on to the install part 
 of this document.
 
-Update Spamikaze
+Update Spamikaze database
 ----------------
 
 To update from the Spamikaze version .1 you will need three extra
@@ -27,7 +27,7 @@ directory. This update will import the current entries which are all
 stored in the spammers table into the ipnumber and ipentries tables.
 
 
-Install Spamikaze
+Install Spamikaze database
 -----------------
 
 We are assuming you already have mysql installed and running. If not
@@ -90,6 +90,11 @@ http://nl3.php.net/manual/en/installation.php
 http://httpd.apache.org/
 
 
+
+Mailserver
+----------
+Sendmail is recommended.
+
 Spamikaze 
 ---------
 
@@ -112,7 +117,7 @@ Mail and Database Scripts
 
 Please check the online documentation:
 
-http://spamikaze.nl.linux.org/doc/
+http://spamikaze.org/
 
 
 Almost done, setting up the spamtraps and cronjobs: 
