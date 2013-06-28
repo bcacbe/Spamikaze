@@ -5,6 +5,7 @@ Most of the Spamikaze documentation should be present online by now,
 at http://spamikaze.org  This document gives some extra
 hints and hints on how to upgrade from the previous version.
 
+Part 0: Prerequisites
 Packages
 -------------------
 This is not a complete list! All these items can be installed on the same server, or spread across 2 or 3.
@@ -21,7 +22,7 @@ yum install httpd php perl perl-dbi perl-dbd-mysql perl-net-dns perl-Config-IniF
 
 
 
-
+Part 1: Database
 MySQL
 -----
 
@@ -88,6 +89,7 @@ created database.
 Again you will be prompted for a password, enter it.
 
 
+Part 2: Web server
 Webserver
 ---------
 
@@ -107,7 +109,7 @@ http://nl3.php.net/manual/en/installation.php
 http://httpd.apache.org/
 
 
-
+Part 3: Mail server
 Mailserver
 ----------
 Sendmail is recommended.
