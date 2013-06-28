@@ -5,6 +5,23 @@ Most of the Spamikaze documentation should be present online by now,
 at http://spamikaze.org  This document gives some extra
 hints and hints on how to upgrade from the previous version.
 
+Packages
+-------------------
+This is not a complete list! All these items can be installed on the same server, or spread across 2 or 3.
+
+database server: 
+yum install mysql mysql-client
+
+mail server: 
+yum install sendmail sendmail-cf 
+
+spamikaze web server: 
+you need to install RPMForge before you can install perl-config-inifiles. rpm-forge: http://wiki.centos.org/AdditionalResources/Repositories/RPMForge
+yum install httpd php perl perl-dbi perl-dbd-mysql perl-net-dns perl-Config-IniFiles
+
+
+
+
 MySQL
 -----
 
