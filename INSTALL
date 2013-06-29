@@ -18,7 +18,7 @@ yum install sendmail sendmail-cf
 
 spamikaze web server: 
 you need to install RPMForge before you can install perl-config-inifiles. rpm-forge: http://wiki.centos.org/AdditionalResources/Repositories/RPMForge
-yum install httpd php perl perl-dbi perl-dbd-mysql perl-net-dns perl-Config-IniFiles
+yum install httpd php perl perl-dbi perl-dbd-mysql perl-net-dns perl-Config-IniFiles perl-CGI
 
 
 
@@ -127,6 +127,7 @@ include_once location to point it to the correct config.php.
 
 Next choose a location where the scripts could be located on your system.
 Copy config.php, passivetrap.pl, sendmail.pl and named.pl to that location.
+chmod 777 passivetrap.pl
 
 Store the php/cgi scripts in your webdir/cgi-bin.
 
